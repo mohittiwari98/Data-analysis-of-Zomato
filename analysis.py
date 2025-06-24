@@ -14,12 +14,13 @@ def handleRate(value):
 dataframe['rate'] = dataframe['rate'].apply(handleRate)
 print(dataframe.head())
 
-#dataframe.info()
+dataframe.info()
 
 dataframe.head()
-#sns.countplot(x=dataframe['listed_in(type)'])
-#plt.xlabel("type of resturant")
-#plt.show()
+#use this part to get type of restaurant 
+sns.countplot(x=dataframe['listed_in(type)'])
+plt.xlabel("type of resturant")
+plt.show()
 
 #grouped_data=dataframe.groupby('listed_in(type)')['votes'].sum()
 #result = pd.DataFrame({'votes':grouped_data})
