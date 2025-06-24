@@ -30,9 +30,10 @@ plt.xlabel("Type of Restaurent",c="blue",size=20)
 plt.ylabel("votes",c="red",size=20)
 plt.show()
 
-#plt.hist(dataframe['rate'],bins=5)
-#plt.title("rating distribution")
-#plt.show()
+#get rating distribution 
+plt.hist(dataframe['rate'],bins=5)
+plt.title("rating distribution")
+plt.show()
 
 #couple_data=dataframe['approx_cost(for two people)']
 #sns.countplot(x=couple_data)
