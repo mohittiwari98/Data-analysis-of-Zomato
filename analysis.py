@@ -35,9 +35,10 @@ plt.hist(dataframe['rate'],bins=5)
 plt.title("rating distribution")
 plt.show()
 
-#couple_data=dataframe['approx_cost(for two people)']
-#sns.countplot(x=couple_data)
-#plt.show()
+#get approx_cost of two peoples
+couple_data=dataframe['approx_cost(for two people)']
+sns.countplot(x=couple_data)
+plt.show()
 
 #plt.figure(figsize=(6,6))
 #sns.boxplot(x='online_order',y='rate',data=dataframe)
