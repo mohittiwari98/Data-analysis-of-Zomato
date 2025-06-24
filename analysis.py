@@ -40,9 +40,11 @@ couple_data=dataframe['approx_cost(for two people)']
 sns.countplot(x=couple_data)
 plt.show()
 
-#plt.figure(figsize=(6,6))
-#sns.boxplot(x='online_order',y='rate',data=dataframe)
-#plt.show()
+#get boxplot of online order and rate
+plt.figure(figsize=(6,6))
+sns.boxplot(x='online_order',y='rate',data=dataframe)
+plt.show()
+#get heatmap
 pivot_table=dataframe.pivot_table(index='listed_in(type)',columns='online_order', aggfunc='size',fill_value=0)
 sns.heatmap(pivot_table,annot=True,cmap="YlGnBu",fmt='d')
 plt.title("Heatmap")
