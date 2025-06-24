@@ -62,27 +62,41 @@ The Python script performs the following steps:
 4. Visualizations will be displayed, and console output will show dataset details.
 
 ## Results
-- **Restaurant Type Distribution**: A count plot shows the frequency of different restaurant types (e.g., Dining, Cafes).
-  ![Restaurant Type Distribution](restaurant_type_countplot.png)
-- **Votes by Restaurant Type**: A line plot illustrates the total votes for each restaurant type, highlighting popularity.
-  ![Votes by Restaurant Type](votes_lineplot.png)
-- **Rating Distribution**: A histogram displays the spread of ratings, indicating common rating ranges.
-  ![Rating Distribution](rating_histogram.png)
-- **Approximate Cost for Two**: A count plot shows the frequency of different cost brackets for two people.
-  ![Cost Distribution](cost_countplot.png)
-- **Online Order vs. Rating**: A box plot compares ratings for restaurants with and without online ordering.
-  ![Online Order Box Plot](online_order_boxplot.png)
-- **Restaurant Type and Online Order Heatmap**: A heatmap shows the count of restaurants by type and online order availability.
-  ![Heatmap](heatmap.png)
+- Restaurant Type Distribution: A count plot shows the frequency of different restaurant types (e.g., Dining, Cafes).
 
-## Screenshots
-The following screenshots correspond to each visualization:
-1. Restaurant Type Distribution: `restaurant_type_countplot.png`
-2. Votes by Restaurant Type: `votes_lineplot.png`
-3. Rating Distribution: `rating_histogram.png`
-4. Approximate Cost for Two: `cost_countplot.png`
-5. Online Order vs. Rating: `online_order_boxplot.png`
-6. Restaurant Type and Online Order Heatmap: `heatmap.png`
+   <div align="center">
+  <img src="mohit45.PNG" alt="DevOpsShack Banner">
+</div>
+
+- Votes by Restaurant Type: A line plot illustrates the total votes for each restaurant type, highlighting popularity.
+  
+   <div align="center">
+  <img src="mohit46.PNG" alt="DevOpsShack Banner">
+</div>
+
+- Rating Distribution: A histogram displays the spread of ratings, indicating common rating ranges.
+  
+   <div align="center">
+  <img src="mohit47.PNG" alt="DevOpsShack Banner">
+</div>
+
+- Approximate Cost for Two: A count plot shows the frequency of different cost brackets for two people.
+  
+   <div align="center">
+  <img src="mohit48.PNG" alt="DevOpsShack Banner">
+</div>
+- Online Order vs. Rating: A box plot compares ratings for restaurants with and without online ordering.
+  
+   <div align="center">
+  <img src="mohit49.PNG" alt="DevOpsShack Banner">
+</div>
+- Restaurant Type and Online Order Heatmap: A heatmap shows the count of restaurants by type and online order availability.
+   <div align="center">
+  <img src="mohit50.PNG" alt="DevOpsShack Banner">
+</div>
+
+
+
 
 ## Future Improvements
 - Handle missing or inconsistent data (e.g., null values or outliers).
